@@ -1,0 +1,25 @@
+{
+  "validUser": {
+    "firstNameandlastName": "leko",
+    "email": "leko@gmail.com",
+    "personalID": "01017038739",
+    "phone": "599945757",
+    "password": "nanikodadu12"
+  },
+  
+  
+  "invalidUser": {
+    "email": "lekogmail.com",
+    "password": "nanikodadu"
+  },
+
+  "newUser": {
+    "email": "leko@gmail.com",
+    "password": "nanikodadu12",
+    "phone": "599945757",
+    "personalID": "01017038739",
+    "firstNameandlastName": "leko"
+  }
+}
+
+
