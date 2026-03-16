@@ -20,15 +20,7 @@ cy.get('body > div.header-pop.active > ul > li.cat-down.active > div > ul.catego
 cy.get('[data-id="1537"]').scrollIntoView().click({ force: true })
 cy.get('#cart-items-count').click({ force: true })
 cy.get('body > main > div.cart-box > div.swiper.cart-slider.swiper-container.swiper-container-initialized.swiper-container-horizontal > div > div > div.spinner > button.plus.change-qty-by-one').click({ force: true })
-
-
-
-
-
-
-
 cy.get('input[name="address"]').scrollIntoView().type('Tbilisi, Vake, 1234', { force: true })
-
 cy.get('.cart-submit').click({ force: true })//ნივთებს ყიდულობს
 
 })
